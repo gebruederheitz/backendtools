@@ -14,20 +14,27 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Backend tools',
   'description' => '5 admin tools for extensions, files, images and links: extensionlist, filedeletion, images with no title, unzip and linklist.',
   'category' => 'module',
-	'author' => 'Kurt Gusbeth',
-	'author_company' => 'fixpunkt werbeagentur gmbh',
-  'author_email' => 'info@quizpalme.de',
+  'author' => 'Kurt Gusbeth',
+  'author_email' => 'k.gusbeth@fixpunkt.com',
   'state' => 'stable',
   'uploadfolder' => false,
   'createDirs' => '',
-  'clearCacheOnLoad' => false,
-  'version' => '1.3.0',
+  'clearCacheOnLoad' => 0,
+  'version' => '1.2.3',
   'constraints' => 
   array (
     'depends' => 
     array (
-      'typo3' => '9.5.0-9.5.99',
+      'typo3' => '7.6.0-8.7.99',
+    ),
+    'conflicts' => 
+    array (
+    ),
+    'suggests' => 
+    array (
     ),
   ),
+  'clearcacheonload' => false,
+  'author_company' => NULL,
 );
 

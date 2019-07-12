@@ -1,7 +1,6 @@
 <?php
 namespace Fixpunkt\Backendtools\Domain\Model;
 
-use TYPO3\CMS\Extbase\Annotation as Extbase;
 
 /***************************************************************
  *
@@ -37,8 +36,8 @@ class Session extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Key (action)
      *
-     * @Extbase\Validate("NotEmpty")
      * @var string
+     * @validate NotEmpty
      */
     protected $action = '';
     
